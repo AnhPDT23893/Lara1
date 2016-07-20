@@ -1,0 +1,254 @@
+.slide-show {
+  padding-bottom: 2%;
+}
+
+.show >img {
+  position: absolute;
+}
+
+.show >p {
+  padding-top: 3%;
+}
+
+.show >.container {
+  position: relative;
+}
+
+.show >p >a {
+  font-size: 30px;
+  font-family: Oswald;
+  color: #fff;
+  padding-left: 15px;
+  z-index: 100;
+}
+
+.wrapper {
+  .content {
+    background: #ecf0f1;
+    .container {
+      .detail_product {
+        margin-top: 50px;
+        background: #ffffff;
+        .detail {
+          .col-md-6 {
+          }
+        }
+      }
+    }
+  }
+}
+
+.also_like {
+  padding-top: 50px;
+  padding-bottom: 80px;
+
+  .customNavigation {
+    bottom: -180px;
+    position: relative;
+    z-index: 99;
+    a {
+      border: 1px solid #cdcdcd;
+      color: #cdcdcd;
+      &:hover {
+        border:1px solid #666666;
+        color: #666666;
+      }
+    }
+    .pull-right {
+      margin-right: 30px;
+    }
+  }
+  .product {
+    .item {
+      padding: 0px 15px;
+      .photo {
+        margin-bottom: -3px;
+        .xoverlay {
+          .xoverlay-box {
+            .xoverlay-data {
+              span {
+
+                a {
+
+                  i {
+                    border-radius: 0;
+                    &:hover {
+                      background: #fe5a27;
+                      border: #fe5a27;
+                      color: #ffffff;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .info {
+        background: #ffffff;
+        padding: 20px 0;
+        a {
+
+          h4 {
+            text-align: center;
+            font-family: Oswald;
+            font-size: 16px;
+            color: #333333;
+          }
+        }
+        .rate {
+          img {
+            margin: 0 auto;
+          }
+        }
+        .price {
+          text-align: center;
+          font-family: Oswald;
+          strong {
+            font-size: 15px;
+            color: #fe5a27;
+          }
+          label {
+            margin-left: 10px;
+            color: #cdcdcd;
+            font-size: 12px;
+            text-decoration: line-through;
+          }
+        }
+      }
+    }
+  }
+}
+.title {
+  h3 {
+    text-align: center;
+    font-family: Oswald;
+    font-size: 30px;
+  }
+  .count {
+    text-align: center;
+    margin-left: 20%;
+    .col-md-4 {
+      height: 1px;
+      background: #cdcdcd;
+      margin-top: 10px;
+    }
+    .col-md-1 {
+      font-family: Oswald;
+      font-size: 18px;
+      color: #fe5a27;
+    }
+  }
+  .form-group {
+    .col-md-4 {
+      height: 1px;
+      background: #cdcdcd;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .price-detail {
+    .special-detail {
+      margin-right: 15px;
+    }
+  }
+  .select {
+    .option {
+      p {
+        padding-left: 7px;
+      }
+    }
+  }
+  .add-cart {
+    form {
+      margin-right: 5px;
+    }
+    .add {
+      margin-right: 35px;
+    }
+  }
+  .social {
+    span {
+      margin-right: 3px;
+    }
+  }
+
+  .also_like {
+    .title {
+      .count {
+        .col-md-1 {
+          width: 74px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+
+}
+@media (max-width: 768px) {
+  .detail_product {
+    .detail {
+      .col-md-6 {
+        .img-detail {
+          clear: both;
+        }
+        .select {
+          padding-bottom: 17px;
+        }
+        .social {
+          span {
+            margin-right: 0;
+            li {
+              padding: 8px 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 568px) {
+  .add-cart {
+    form {
+    }
+    .add {
+      float: left;
+    }
+  }
+
+  .also_like
+  {
+    .product {
+      .item {
+        padding: 0 63px;
+      }
+    }
+  }
+}
+
+@media (max-width: 321px) {
+  .also_like
+  {
+    .product {
+      .item {
+        padding: 0 200px !important;
+      }
+    }
+  }
+  .also_like {
+
+    .customNavigation {
+      bottom: -290px;
+      .pull-left {
+        margin-left: 130px;
+      }
+      .pull-right {
+        margin-right: 163px;
+      }
+    }
+  }
+}

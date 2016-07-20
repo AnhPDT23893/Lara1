@@ -1,0 +1,191 @@
+/*-----------------------------------------Detail-product---------------------------------*/
+.detail_product{
+    background: #fff;
+    height: 100%;
+    padding-top: 30px;
+}
+.name >h2 >a,.review img,.special-detail,.social h4{
+    margin-left: -15px;
+}
+.option{
+    margin-left: -30px;
+
+}
+/*.option p {*/
+/*padding-top: 5px;*/
+/*}*/
+.qty {
+    margin-left: -45px;
+}
+.social h5{
+    margin-left: -30px;
+}
+.name h2 a{
+    font-family: Oswald;
+    font-size: 30px;
+    color: #333333;
+}
+.name {
+    border-bottom: 1px solid #999999;
+}
+.review {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 1px dotted #999999;
+}
+.review p,.review span a {
+    font-family: OpenSan;
+    font-size: 12px;
+    color: #666666;
+}
+.price-detail {
+    border-bottom: 1px dotted #999999;
+}
+.instock  {
+    color: #666666;
+    font-family: OpenSan;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.special-detail {
+    color: #fe5a27;
+    font-size: 24px;
+    font-family: Oswald;
+}
+.old-price-detail {
+    font-family:Oswald;
+    font-size: 22px;
+    color: #666666;
+    text-decoration: line-through;
+    padding-top: 1px;
+}
+.overview,.select,.add-cart {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-bottom: 1px dotted #999999;
+}
+.overview h4,.select h4 {
+    font-family: Oswald;
+    font-size: 16px;
+    color: #333333;
+}
+.overview p{
+    font-family: OpenSan;
+    font-size: 13px;
+    color: #666666;
+}
+.select h4 {
+    padding-bottom: 15px;
+}
+.option p{
+    font-family: OpenSan;
+    font-size: 14px;
+    color: #666;
+}
+.select select {
+    border: 1px solid #999999;
+    font-family: OpenSan;
+    font-size: 14px;
+    height: 27px;
+}
+.add-to-cart {
+    height: 40px;
+    width: 150px;
+    border: 1px solid #999999;
+    color: #999999;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+}
+.to-cart {
+    font-family: Oswald;
+}
+.fa-heart,.fa-random {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #999999;
+    padding: 12px;
+    margin-right: 10px;
+    color: #999;
+}
+.fa-heart:hover,.fa-random:hover,.add-to-cart:hover{
+    background: #fe5a27;
+    color: #fff;
+    border: 1px solid #fe5a27;
+}
+.add-cart >span{
+    margin-right: 7px;
+}
+.input {
+    height: 40px;
+    width: 90px;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 16px;
+}
+.add-cart >form >span {
+
+}
+.qty {
+    padding-top: 7px;
+    font-family: OpenSan;
+    font-size: 14px;
+}
+.social {
+    padding-top: 15px;
+}
+.social >span >li{
+    border: 1px solid;
+    padding: 6px 10px;
+}
+.social >span >li:hover {
+    background: #fe5a27;
+    color: #ffffff;
+}
+.social h5 {
+    font-size: 14px;
+    font-family: Oswald;
+}
+.bs-example-tabs {
+    padding: 58px 30px;
+}
+.bs-example-tabs ul li a{
+    font-family: Oswald;
+    font-size: 16px;
+    color: #666666;
+    border-radius: 0;
+}
+.bs-example-tabs ul .active{
+    color: red;
+    border-top: #fe5a27 1px solid;
+}
+.bs-example-tabs ul li:hover{
+    background: #ededed;
+    border-top: 1px solid #fe5a27;
+}
+.tab-content {
+    border-bottom: 1px solid #e1e1e1;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}
+.tab-pane {
+    padding: 35px 20px;
+}
+.tab-pane p {
+    font-family: OpenSan;
+    font-size: 13px;
+}
+.detail_product>.carousel {
+    position: relative;
+}
+.detail_product {
+    position: relative;
+}
+.img-icon {
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+.latest {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}

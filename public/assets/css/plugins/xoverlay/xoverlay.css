@@ -1,0 +1,1228 @@
+
+.xoverlay {
+    overflow: hidden;
+    perspective: 300px;
+    position: relative;
+}
+.xoverlay .x-img-main {
+    width: 100%;
+}
+.xoverlay-data {
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+.xoverlay-data p {
+    color: #fff;
+    /*float: left;*/
+    font-size: 13px;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
+.xoverlay h2 {
+    color: #f1c40f;
+    display: block;
+    float: left;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 10px 0;
+}
+.xoverlay span {
+    display: inline-block;
+    margin: 0 3%;
+    position: relative;
+    top: 33%;
+}
+.xoverlay span i {
+    font-size: 20px;
+    height: 40px;
+    padding: 13%;
+    text-align: center;
+    width: 40px;
+}
+@media (max-width: 530px) {
+    .xoverlay span i {
+        font-size: 27px;
+        height: 35px;
+        padding: 5%;
+        text-align: center;
+        width: 35px;
+    }
+}
+@media (max-width: 530px) {
+    .xoverlay span i {
+        font-size: 19px;
+        height: 25px;
+        padding: 5%;
+        text-align: center;
+        width: 25px;
+    }
+}
+@media (max-width: 302px) {
+    .xoverlay span i {
+        font-size: 10px;
+        height: 15px;
+        padding: 5%;
+        text-align: center;
+        width: 15px;
+    }
+}
+.x-more, .x-more:hover {
+    background: none repeat scroll 0 0 #ffffff;
+    border-radius: 2px;
+    clear: both;
+    color: #858585;
+    float: left;
+    margin: 0 10px;
+    padding: 3px 7px;
+    text-decoration: none;
+}
+.xoverlay .x-circle i {
+    border: 1px solid;
+    border-radius: 50%;
+}
+.xoverlay .x-square i {
+    border: 2px solid;
+}
+.xoverlay .x-lemon i {
+    border: 2px solid;
+    border-radius: 50% 0;
+}
+.xoverlay .x-balloon i {
+    border: 2px solid;
+    border-radius: 50% 0 50% 50%;
+}
+.xoverlay .x-smooth i {
+    border: 2px solid;
+    border-radius: 10%;
+}
+.x-white i {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.x-yellow i {
+    border-color: #f1c40f;
+    color: #f1c40f;
+}
+.x-green i {
+    border-color: #2ecc71;
+    color: #2ecc71;
+}
+.x-blue i {
+    border-color: #1abc9c;
+    color: #1abc9c;
+}
+.x-red i {
+    border-color: #e74c3c;
+    color: #e74c3c;
+}
+.x-orange i {
+    border-color: #e67e22;
+    color: #e67e22;
+}
+.x-simple .xoverlay-box {
+    background: none repeat scroll 0 0 rgba(27, 27, 27, 0.7);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-simple:hover .xoverlay-box {
+    background: none repeat scroll 0 0 rgba(27, 27, 27, 0.7);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.x-bottom .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: -500px;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-bottom:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+.x-top .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -500px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-top:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.x-left .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: -500px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-left:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.x-right .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: -500px;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-right:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.x-top-left .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    height: 100%;
+    left: -500px;
+    position: absolute;
+    top: -500px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-top-left:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.x-top-right .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    height: 100%;
+    position: absolute;
+    right: -500px;
+    top: -500px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-top-right:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.x-bottom-left .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: -500px;
+    height: 100%;
+    left: -500px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-bottom-left:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.x-bottom-right .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: -500px;
+    height: 100%;
+    position: absolute;
+    right: -500px;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-bottom-right:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+.x-flip-left .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotateY(131deg);
+    transform-origin: left center 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-flip-left:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateY(0deg);
+    transform-origin: left center 0;
+    width: 100%;
+}
+.x-flip-right .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateY(-133deg);
+    transform-origin: right center 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-flip-right:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateY(0deg);
+    transform-origin: right center 0;
+    width: 100%;
+}
+.x-flip-top .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateX(-125deg);
+    transform-origin: center top 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-flip-top:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateX(0deg);
+    transform-origin: center top 0;
+    width: 100%;
+}
+.x-flip-bottom .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateX(131deg);
+    transform-origin: center bottom 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-flip-bottom:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateX(0deg);
+    transform-origin: center bottom 0;
+    width: 100%;
+}
+.x-wobble-left .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotateY(131deg);
+    transform-origin: left center 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.x-wobble-left:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateY(0deg);
+    transform-origin: right center 0;
+    width: 100%;
+}
+.x-wobble-right .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotateY(-133deg);
+    transform-origin: right center 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.x-wobble-right:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateY(0deg);
+    transform-origin: left center 0;
+    width: 100%;
+}
+.x-wobble-top .xoverlay-box {
+    background: none repeat scroll 0 0 #5c5c5b;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.8;
+    transform: rotateX(-131deg);
+    transform-origin: center top 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-wobble-top:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateX(0deg);
+    transform-origin: center bottom 0;
+    width: 100%;
+}
+.x-wobble-bottom .xoverlay-box {
+    background: none repeat scroll 0 0 #5c5b5b;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0.8;
+    transform: rotateX(131deg);
+    transform-origin: center bottom 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-wobble-bottom:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateX(0deg);
+    transform-origin: center top 0;
+    width: 100%;
+}
+.x-fpush-left .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotateY(131deg);
+    transform-origin: left center 0;
+    transition: all 0.3s ease 0s;
+    width: 50%;
+}
+.x-fpush-left:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateY(0deg);
+    transform-origin: left center 0;
+    width: 50%;
+}
+.x-fpush-left .x-img-main {
+    transition: all 0.3s ease 0s;
+}
+.x-fpush-left:hover .x-img-main {
+    transform: translateX(20%);
+}
+.x-fpush-right .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateY(-132deg);
+    transform-origin: right center 0;
+    transition: all 0.3s ease 0s;
+    width: 50%;
+}
+.x-fpush-right:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateY(0deg);
+    transform-origin: right center 0;
+    transition: all 0.3s ease 0s;
+    width: 50%;
+}
+.x-fpush-right .x-img-main {
+    transition: all 0.3s ease 0s;
+}
+.x-fpush-right:hover .x-img-main {
+    transform: translateX(-20%);
+}
+.x-fpush-top .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 70%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateX(-125deg);
+    transform-origin: center top 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-fpush-top:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 70%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateX(0deg);
+    transform-origin: center top 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-fpush-top .x-img-main {
+    transition: all 0.3s ease 0s;
+}
+.x-fpush-top:hover .x-img-main {
+    transform: translateY(20%);
+}
+.x-fpush-bottom .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 70%;
+    position: absolute;
+    right: 0;
+    transform: rotateX(131deg);
+    transform-origin: center bottom 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-fpush-bottom:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 70%;
+    position: absolute;
+    right: 0;
+    transform: rotateX(0deg);
+    transform-origin: center bottom 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-fpush-bottom .x-img-main {
+    transition: all 0.3s ease 0s;
+}
+.x-fpush-bottom:hover .x-img-main {
+    transform: translateY(-20%);
+}
+.x-pushfull-left .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: -100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-pushfull-left:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.x-pushfull-left .x-img-main {
+    transition: all 0.3s ease 0s;
+}
+.x-pushfull-left:hover .x-img-main {
+    transform: translateX(100%);
+}
+.x-pushfull-right .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: -100%;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-pushfull-right:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.x-pushfull-right .x-img-main {
+    transition: all 0.3s ease 0s;
+}
+.x-pushfull-right:hover .x-img-main {
+    transform: translateX(-100%);
+}
+.x-pushfull-top .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -100%;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-pushfull-top:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.x-pushfull-top .x-img-main {
+    transition: all 0.3s ease 0s;
+}
+.x-pushfull-top:hover .x-img-main {
+    transform: translateY(100%);
+}
+.x-pushfull-bottom .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: -100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-pushfull-bottom:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+.x-pushfull-bottom .x-img-main {
+    transition: all 0.3s ease 0s;
+}
+.x-pushfull-bottom:hover .x-img-main {
+    transform: translateY(-100%);
+}
+.x-imgrotate-left .xoverlay-box {
+    background: none repeat scroll 0 0 rgba(27, 27, 27, 0.7);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-imgrotate-left:hover .xoverlay-box {
+    background: none repeat scroll 0 0 rgba(27, 27, 27, 0.7);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.x-imgrotate-left .x-img-main {
+    transition: all 0.3s ease 0s;
+}
+.x-imgrotate-left:hover .x-img-main {
+    transform: rotate(30deg) scale(1.5, 1.5);
+}
+.x-imgrotate-right .xoverlay-box {
+    background: none repeat scroll 0 0 rgba(27, 27, 27, 0.7);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-imgrotate-right:hover .xoverlay-box {
+    background: none repeat scroll 0 0 rgba(27, 27, 27, 0.7);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.x-imgrotate-right .x-img-main {
+    transition: all 0.3s ease 0s;
+}
+.x-imgrotate-right:hover .x-img-main {
+    transform: rotate(-30deg) scale(1.5, 1.5);
+}
+.x-zoom .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(0, 0);
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-zoom:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(1, 1);
+    width: 100%;
+}
+.x-zoom-inout .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(0, 0);
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-zoom-inout:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #5c5c5b;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(1, 1);
+    width: 100%;
+}
+.x-zoom-inout .x-img-main {
+    transition: all 0.3s ease 0s;
+}
+.x-zoom-inout:hover .x-img-main {
+    transform: scale(0, 0);
+}
+.x-zoom-rotate .xoverlay-box {
+    background: none repeat scroll 0 0 #5c5c5b;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(0deg) scale(0, 0);
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.x-zoom-rotate:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotate(360deg) scale(1, 1);
+    width: 100%;
+}
+.x-zoom-rotatey .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateY(0deg) scale(0, 0);
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.x-zoom-rotatey:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateY(360deg) scale(1, 1);
+    width: 100%;
+}
+.x-zoom-rotatex .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateX(0deg) scale(0, 0);
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.x-zoom-rotatex:hover .xoverlay-box {
+    background: none repeat scroll 0 0 #444444;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateX(360deg) scale(1, 1);
+    width: 100%;
+}
+.xoverlay .x-icon-top-bottom span:nth-of-type(1) {
+    opacity: 0;
+    transform: translateY(-500%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-top-bottom span:nth-of-type(1) {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.xoverlay .x-icon-top-bottom span:nth-of-type(2) {
+    opacity: 0;
+    transform: scale(0, 0);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-top-bottom span:nth-of-type(2) {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+.xoverlay .x-icon-top-bottom span:nth-of-type(3) {
+    opacity: 0;
+    transform: translateY(300%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-top-bottom span:nth-of-type(3) {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.xoverlay .x-icon-left-right span:nth-of-type(1) {
+    opacity: 0;
+    transform: translateX(-500%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-left-right span:nth-of-type(1) {
+    opacity: 1;
+    transform: translateX(0%);
+}
+.xoverlay .x-icon-left-right span:nth-of-type(2) {
+    opacity: 0;
+    transform: scale(0, 0);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-left-right span:nth-of-type(2) {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+.xoverlay .x-icon-left-right span:nth-of-type(3) {
+    opacity: 0;
+    transform: translateX(300%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-left-right span:nth-of-type(3) {
+    opacity: 1;
+    transform: translateX(0%);
+}
+.xoverlay .x-icon-zoom span {
+    opacity: 0;
+    transform: scale(0, 0);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-zoom span {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+.xoverlay .x-icon-left span {
+    opacity: 0;
+    transform: translateX(-500%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-left span {
+    opacity: 1;
+    transform: translateX(0%);
+}
+.xoverlay .x-icon-right span {
+    opacity: 0;
+    transform: translateX(300%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-right span {
+    opacity: 1;
+    transform: translateX(0%);
+}
+.xoverlay .x-icon-top span {
+    opacity: 0;
+    transform: translateY(-500%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-top span {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.xoverlay .x-icon-bottom span {
+    opacity: 0;
+    transform: translateY(300%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-bottom span {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.xoverlay .x-icon-zoomup span:nth-of-type(1) {
+    transform: scale(0, 0) translateY(300%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-zoomup span:nth-of-type(1) {
+    transform: scale(1, 1) translateX(0%);
+}
+.xoverlay .x-icon-zoomup span:nth-of-type(2) {
+    transform: scale(2, 2);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-zoomup span:nth-of-type(2) {
+    transform: scale(1, 1);
+}
+.xoverlay .x-icon-zoomup span:nth-of-type(3) {
+    transform: scale(0, 0) translateY(300%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-zoomup span:nth-of-type(3) {
+    transform: scale(1, 1) translateX(0%);
+}
+.xoverlay .x-icon-zoomdown span:nth-of-type(1) {
+    transform: scale(0, 0) translateY(-500%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-zoomdown span:nth-of-type(1) {
+    transform: scale(1, 1) translateX(0%);
+}
+.xoverlay .x-icon-zoomdown span:nth-of-type(2) {
+    transform: scale(2, 2);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-zoomdown span:nth-of-type(2) {
+    transform: scale(1, 1);
+}
+.xoverlay .x-icon-zoomdown span:nth-of-type(3) {
+    transform: scale(0, 0) translateY(-500%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-zoomdown span:nth-of-type(3) {
+    transform: scale(1, 1) translateX(0%);
+}
+.xoverlay .x-icon-rotatezoom span {
+    opacity: 0;
+    transform: scale(0, 0) rotate(180deg);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-rotatezoom span {
+    opacity: 1;
+    transform: scale(1, 1) rotate(0deg);
+}
+.xoverlay .x-icon-zoomoutin span:nth-of-type(1) {
+    transform: scale(2, 2);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-zoomoutin span:nth-of-type(1) {
+    transform: scale(1, 1);
+}
+.xoverlay .x-icon-zoomoutin span:nth-of-type(2) {
+    transform: scale(2, 2);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-zoomoutin span:nth-of-type(2) {
+    transform: scale(1, 1);
+}
+.xoverlay .x-icon-zoomoutin span:nth-of-type(3) {
+    transform: scale(2, 2);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-zoomoutin span:nth-of-type(3) {
+    transform: scale(1, 1);
+}
+.xoverlay .x-icon-allzoomin {
+    transform: scale(0, 0) rotate(180deg);
+    transition: all 0.5s ease 0s;
+}
+.xoverlay:hover .x-icon-allzoomin {
+    transform: scale(1, 1) rotate(0deg);
+}
+.xoverlay .x-icon-allzoomout {
+    transform: scale(2, 2) rotate(180deg);
+    transition: all 0.5s ease 0s;
+}
+.xoverlay:hover .x-icon-allzoomout {
+    transform: scale(1, 1) rotate(0deg);
+}
+.xoverlay:hover .x-icon-left-top-right span:nth-of-type(1) {
+    opacity: 1;
+    transform: translateX(0%);
+}
+.xoverlay .x-icon-left-top-right span:nth-of-type(2) {
+    opacity: 0;
+    transform: translateY(-500%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-left-top-right span:nth-of-type(2) {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.xoverlay .x-icon-left-top-right span:nth-of-type(3) {
+    opacity: 0;
+    transform: translateX(300%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-left-top-right span:nth-of-type(3) {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.xoverlay .x-icon-left-bottom-right span:nth-of-type(1) {
+    opacity: 0;
+    transform: translateX(-500%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-left-bottom-right span:nth-of-type(1) {
+    opacity: 1;
+    transform: translateX(0%);
+}
+.xoverlay .x-icon-left-bottom-right span:nth-of-type(2) {
+    opacity: 0;
+    transform: translateY(300%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-left-bottom-right span:nth-of-type(2) {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.xoverlay .x-icon-left-bottom-right span:nth-of-type(3) {
+    opacity: 0;
+    transform: translateX(300%);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-left-bottom-right span:nth-of-type(3) {
+    opacity: 1;
+    transform: translateY(0%);
+}
+.xoverlay .x-icon-flip-zoomind span:nth-of-type(1) {
+    transform: scale(0, 0) rotateX(360deg);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-flip-zoomind span:nth-of-type(1) {
+    transform: scale(1, 1) rotateX(0deg);
+}
+.xoverlay .x-icon-flip-zoomind span:nth-of-type(2) {
+    transform: scale(2, 2) rotateX(360deg);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-flip-zoomind span:nth-of-type(2) {
+    transform: scale(1, 1) rotateX(0deg);
+}
+.xoverlay .x-icon-flip-zoomind span:nth-of-type(3) {
+    transform: scale(0, 0) rotateX(360deg);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-flip-zoomind span:nth-of-type(3) {
+    transform: scale(1, 1) rotateX(0deg);
+}
+.xoverlay .x-icon-flip-zoomind2 span:nth-of-type(1) {
+    transform: scale(2, 2) rotateX(360deg);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-flip-zoomind2 span:nth-of-type(1) {
+    transform: scale(1, 1) rotateX(0deg);
+}
+.xoverlay .x-icon-flip-zoomind2 span:nth-of-type(2) {
+    transform: scale(0, 0) rotateX(360deg);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-flip-zoomind2 span:nth-of-type(2) {
+    transform: scale(1, 1) rotateX(0deg);
+}
+.xoverlay .x-icon-flip-zoomind2 span:nth-of-type(3) {
+    transform: scale(2, 2) rotateX(360deg);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-flip-zoomind2 span:nth-of-type(3) {
+    transform: scale(1, 1) rotateX(0deg);
+}
+.xoverlay .x-icon-all-slidedown {
+    transform: translateY(-100%) rotate(180deg);
+    transition: all 0.5s ease 0s;
+}
+.xoverlay:hover .x-icon-all-slidedown {
+    transform: translateY(0%) rotate(0deg);
+}
+.xoverlay .x-icon-all-slidetop {
+    transform: translateY(100%) rotate(180deg);
+    transition: all 0.5s ease 0s;
+}
+.xoverlay:hover .x-icon-all-slidetop {
+    transform: translateY(0%) rotate(0deg);
+}
+.xoverlay .x-icon-all-slideleft {
+    transform: translateX(-100%) rotate(180deg);
+    transition: all 0.5s ease 0s;
+}
+.xoverlay:hover .x-icon-all-slideleft {
+    transform: translateX(0%) rotate(0deg);
+}
+.xoverlay .x-icon-all-slideright {
+    transform: translateX(100%) rotate(180deg);
+    transition: all 0.5s ease 0s;
+}
+.xoverlay:hover .x-icon-all-slideright {
+    transform: translateX(0%) rotate(0deg);
+}
+.xoverlay .x-icon-lr-zoom span:nth-of-type(1) {
+    opacity: 0;
+    transform: scale(2, 2);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-lr-zoom span:nth-of-type(1) {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+.xoverlay .x-icon-lr-zoom span:nth-of-type(2) {
+    opacity: 0;
+    transform: scale(0, 0);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-lr-zoom span:nth-of-type(2) {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+.xoverlay .x-icon-lr-zoom span:nth-of-type(3) {
+    opacity: 0;
+    transform: scale(2, 2);
+    transition: all 0.3s ease 0s;
+}
+.xoverlay:hover .x-icon-lr-zoom span:nth-of-type(3) {
+    opacity: 1;
+    transform: scale(1, 1);
+}
